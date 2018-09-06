@@ -3,6 +3,7 @@
 @section('body-class','login-page sidebar-collapse')
 
 @section('content')
+<div class="page-header header-filter" style="background-image: url('{{asset('/img/bg7.jpg')}}'); background-size: cover; background-position: top center;">
 <div class="container">
     <div class="row">
     <div class="col-lg-4 col-md-6 ml-auto mr-auto">
@@ -11,6 +12,7 @@
         {{ csrf_field() }}
             <div class="card-header card-header-primary text-center">
             <h4 class="card-title">Inicio de Sesión</h4>
+            <!--
             <div class="social-line">
                 <a href="#pablo" class="btn btn-just-icon btn-link">
                 <i class="fa fa-facebook-square"></i>
@@ -22,6 +24,7 @@
                 <i class="fa fa-google-plus"></i>
                 </a>
             </div>
+-->
             </div>
             <p class="description text-center">Ingresa tus datos</p>
             <div class="card-body">
@@ -120,5 +123,9 @@
     </div>
     </div>
 </footer>
+</div>
+      
+
+</div>
 
 @endsection
